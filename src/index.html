@@ -10,13 +10,20 @@
         <img class="h-24 mx-auto sm:mx-0 sm:flex-shrink-0 transform hover:scale-105 duration-500" src="/img/horse.png" alt="Logo">
         <div class="text-center sm:text-left space-y-2">
             <div class="space-y-0.5">
-                <h1 class=" text-black font-bold dark:text-gray-300">Horse Profile</h1>
-                <p class="text-body hover:text-hover text-gray-500 font-medium dark:text-gray-400">Horse Facebook Page</p>
+                <h1 class=" text-black font-bold dark:text-gray-300 first-letter:text-4xl">Horse Profile</h1>
+                <p class="text-body hover:text-hover text-gray-500 font-medium dark:text-gray-400 print:text-black">Horse Facebook Page</p>
             </div>
-            <button class="btn btn-purple shadow-lg shadow-purple-600/40">Visit now</button>
+            <button class="btn btn-purple shadow-lg shadow-purple-600/40 bg-color">Visit now</button>
             <button class="btn btn-green ml-2 shadow-lg shadow-green-600/40">Website</button>
-            <button onclick="window.print()" class="btn btn-green ml-2 shadow-lg shadow-green-600/40">Print</button>
+           <p class="mt-6 text-right print:hidden"> <button onclick="window.print()" class="btn btn-orange ml-2 shadow-lg shadow-orange-600/40">Print</button> </p>
+           <div>
+            <iframe class="print:hidden aspect-video" width="150" height="100" src="https://www.youtube.com/embed/pNh5uVkOEYA" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+           </div>
+            
         </div>
+        
+          
+         
   </div>
 </body>
 </html>

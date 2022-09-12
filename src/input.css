@@ -15,6 +15,9 @@
 .btn-green{
     @apply  border-green-200  text-green-600  hover:bg-green-600  focus:ring-green-800  dark:text-green-400  
 }
+.btn-orange{
+    @apply  border-orange-200  text-orange-600  hover:bg-orange-600  focus:ring-orange-800  dark:text-orange-400  
+}
 }
 @layer base {
     h1 {
@@ -32,3 +35,10 @@
     
 }
 
+/* @responsive { */
+    @screen md{
+    .bg-color{
+        background-color:yellow;
+    }
+
+}
