@@ -24,5 +24,11 @@
 @layer utilities {
     .text-body {
         font-size: 12px;
+        
     }
+    .text-hover{
+        font-size:16px;
+    }  
+    
 }
+
